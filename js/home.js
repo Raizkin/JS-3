@@ -7,6 +7,11 @@ console.log(typeof(result));
 
 // Створіть змінну email з вашою електронною адресою. Напишіть скрипт, який перевіряє чи містить змінна email символ @ і рахує загальну кількість символів. Результат виведіть в консоль.
 
+let email = "artemdacok@email.com";
+let have = email.includes("@");
+let length = email.length;
+console.log(have);
+console.log(length);
 
 // Записати в окремих змінних кожне слово: My, name, is. Поєднати всі слова в змінну fullName. До змінної fullName додати ‘Viktor’. fullName вивести в консоль.
 
